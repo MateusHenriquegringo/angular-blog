@@ -1,0 +1,26 @@
+.container {
+    border-bottom: 1px solid var(--subtitle);
+    width: 50vw;
+    display: flex;
+    padding: 4vw 0;
+    align-items: center;
+    gap: 20px;
+}
+
+.picture {
+    flex: 0.5;
+}
+.title {
+    flex: 1;
+}
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}

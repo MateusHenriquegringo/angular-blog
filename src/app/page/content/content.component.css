@@ -1,0 +1,29 @@
+div {
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    gap: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover img {
+    width: 500px;
+    border-radius: 1em;
+
+}
+
+.description {
+    color: var(--subtitle);
+}
+
+a {
+    color: white;
+    list-style: none;
+    font-size: 1.5em;
+}

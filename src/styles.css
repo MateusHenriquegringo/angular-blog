@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo:#181818;
+    --text:#FFFFFF;
+    --subtitle: #9188AE;
+}
+body {
+    width: 100vw;
+    background-color: var(--fundo);
+}
+html, body {
+    overflow-x: hidden;
+}

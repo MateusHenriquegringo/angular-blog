@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    width: 100vw;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--fundo);
+    padding: 5vh;
+}
+ul {
+    display: flex;
+    width: 50vw;
+    align-items:center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
